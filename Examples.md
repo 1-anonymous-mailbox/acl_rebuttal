@@ -16,11 +16,9 @@ hello what are doing today?
 
 | Model  | generated candidate responses                                |
 | ------ | ------------------------------------------------------------ |
-| BART   | hi, i am doing well. how are you?<br/>hi, i am doing well. how about you?<br/>hi, i am just reading a book. you? <br/>(
-The candidate responses are highly similar and only use one sentence of persona description, "I read twenty books a year.")|
+| BART   | hi, i am doing well. how are you?<br/>hi, i am doing well. how about you?<br/>hi, i am just reading a book. you? <br/>(The candidate responses are highly similar and only use one sentence of persona description, "I read twenty books a year.")|
 | Llama2 | i am reading a book, i read 20 books a year. what are you doing?<br/>i am reading a book. i read 20 books a year. what are you doing?<br/>i am reading, i love to read! how about you? <br/>(only considered one persona description "I read twenty books a year.")|
-| LMEDR  | i am reading a book. how about you?<br/>i am reading a book. i read about 20 a year. how about you?<br/>i am reading a book. how about you?  <br/>(
-The candidate responses are highly similar and only use one sentence of persona description, "I read twenty books a year.")|
+| LMEDR  | i am reading a book. how about you?<br/>i am reading a book. i read about 20 a year. how about you?<br/>i am reading a book. how about you?  <br/>(The candidate responses are highly similar and only use one sentence of persona description, "I read twenty books a year.")|
 | KPDD   | i am reading a book. how are you doing? any plans for the weekend?<br/>i just got off work. a little tired. how are you?<br/>i am good thanks for asking. how are you? i am a stunt double. what about you?<br/>(The candidate responses exhibit high diversity, and multiple persona descriptions are considered, including "I read twenty books a year" and "I am a stunt double as my second job.")|
 
 
