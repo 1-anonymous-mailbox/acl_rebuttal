@@ -8,7 +8,7 @@ We give the rating instructions to the annotators as follows:
 | 3 (fair)    | 1) The text is basically fluent and contains grammar errors but does not affect understanding. <br />2) The response is short but fluent, without grammar errors. <br />3) The text contains some repeated context. <br />4) The text is basically fluent but contains perverse content. | S1: good, you have any hobbies? <br />S2: I travel a lot <br />(Fluent but too simple) <br /><br />S1: what kind of dog is he? <br />S2: he is a german shepard. he is a german shepard. <br />(Fluent but contains repetitions) |
 | 5 (perfect) | 1) The text is long and informative. <br />2) The text is medium length, and fluent without grammar error. | S1: hello what are doing today? <br />S2: hello, I just got back from the gym. how are you? <br /><br />S1: good, you have any hobbies? <br />S2: I used to be a painter, i still like to do that a lot . how about you? |
 
-**(2) persona consistency (Cons.) **(1-5. You need to consider the consistency between the response and the persona descriptions, and whether the response contradicts the persona information.)
+**(2) persona consistency (Cons.)** (1-5. You need to consider the consistency between the response and the persona descriptions, and whether the response contradicts the persona information.)
 
 | score       | Description                                                  | Examples                                                     |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
